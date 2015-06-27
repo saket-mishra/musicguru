@@ -96,15 +96,15 @@ import dj_database_url
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ddpn6ugh97l37m',                      
-        'USER': 'lnqfgzgohzjlun',
-        'PASSWORD': 'pdu3tpvdvRZ92M6RU0xxGKjUXW',
+        'NAME': 'd8ns814u198fmr',                      
+        'USER': 'xbqimjcbgpsgzr',
+        'PASSWORD': 'KEEVx_FqmbI2UbeIntIfG3OY2g',
         'HOST': 'ec2-54-227-249-165.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
 
-DATABASE_URL = 'postgres://lnqfgzgohzjlun:pdu3tpvdvRZ92M6RU0xxGKjUXW@ec2-54-227-249-165.compute-1.amazonaws.com:5432/ddpn6ugh97l37m'
+DATABASE_URL = 'postgres://xbqimjcbgpsgzr:KEEVx_FqmbI2UbeIntIfG3OY2g@ec2-54-227-249-165.compute-1.amazonaws.com:5432/d8ns814u198fmr'
 
 ALLOWED_HOSTS = ['*']
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
