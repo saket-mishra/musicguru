@@ -762,6 +762,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
   background-image: none;
   border: 0px solid transparent;
+  display:none;
  
 }
 .navbar-toggle:focus {
@@ -3957,6 +3958,7 @@ height:240px;border:1px solid #DFD5D5;}
 .footer{display:none;}
 #wrapper-about {display: table;width: 1024px;margin: 50px auto;}
 .classic iframe{margin-left: 70px;margin-bottom: 30px;width:40%;}
+
 }
   
 @media screen and (min-width:400px) and (max-width:599px){
@@ -4019,3 +4021,4 @@ html, body, .container-whole { height: 100%; }
   margin-left: 20px;
   font-size: 13px;
   font-weight: bold;}
+.you-cont{width:100%;}
