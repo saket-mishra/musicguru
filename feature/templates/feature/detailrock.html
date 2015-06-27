@@ -11,7 +11,7 @@
 	<div class="clearfix"></div></div>
 {% for choice in rockinfo.rockvids_set.all %}
      <div class="vid">
-	 <img id="hide" src="http://img.youtube.com/vi/{{choice.vid_id1}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/Z7JgY9zezj4?autoplay=1" width="480" height="300"/>
+	 <img class="imagero" id="hide" src="http://img.youtube.com/vi/{{choice.vid_id1}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/Z7JgY9zezj4?autoplay=1" width="480" height="300"/>
      <div id="hide1">
          <h3>{{choice.vid_singer_name1}}<br /><span>{{choice.vid_name1}}</span></h3></div></div>
 
@@ -22,7 +22,7 @@
 </div>
 {% for choice in rockinfo.rockvids_set.all %}
      <div class="vid">
-	 <img id="hide" src="http://img.youtube.com/vi/{{choice.vid_id2}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/Z7JgY9zezj4?autoplay=1" width="480" height="300"/>
+	 <img class="imagero" id="hide" src="http://img.youtube.com/vi/{{choice.vid_id2}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/Z7JgY9zezj4?autoplay=1" width="480" height="300"/>
      <div id="hide1">
          <h3>{{choice.vid_singer_name2}}<br /><span>{{choice.vid_name2}}</span></h3></div></div>
 
