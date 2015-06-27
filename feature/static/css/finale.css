@@ -3929,7 +3929,7 @@ height:240px;border:1px solid #DFD5D5;}
 .space{
 
 	/* Pass a comma separated list of backgrounds: */
-	background:url('http://rs217.pbsrc.com/albums/cc93/disneyguy100/MOONWALK.gif~c200') no-repeat right 0px, url('http://screencrot.com/wp-content/uploads/2013/09/Image-Moon-Cool-Backgrounds--e1378152362834-1024x768.jpg') no-repeat center;
+	background:url('http://rs217.pbsrc.com/albums/cc93/disneyguy100/MOONWALK.gif~c200') no-repeat right 0px, url('http://www.backgroundbandit.com/wallpapers/13/196.jpg') no-repeat center;
 
 	width:500px;
 	height:400px;
@@ -3971,6 +3971,7 @@ div.view:nth-child(1) img {width:inherit;height:inherit;}
 .con{width:100%;margin:0; background-color:#A7E8F0;display:table;}
 #wrapper-f {width: 1024px;margin-top: 60px;height: 210px;}
 #wrapper-full {width: 100%;margin-top: 50px;}
+#wrapper-about{width:100%;}
 .artist-contain{width:100%;} 
 .dropdown_3columns{display:none;}
 .about-h{display:none;}
@@ -3989,6 +3990,7 @@ div.view:nth-child(1) img {width:inherit;height:inherit;}
 .container-whole{width:100%;margin:0; background-color:#fff;}
 .con{width:100%;margin:0; background-color:#A7E8F0;display:table;}
 #wrapper-f {width: 1024px;margin-top: 60px;}
+#wrapper-about{width:100%;}
 #wrapper-full {width: 100%;margin-top: 50px;}
 .artist-contain{width:100%;} 
 .about-h{display:none;}
@@ -4007,4 +4009,7 @@ html, body, .container-whole { height: 100%; }
 #wrapper { padding-bottom: 3em; }
 #wrapper-f { padding-bottom: 3em; }
 #wrapper-full { padding-bottom: 3em; }
-.yes{display:inline;margin-left:3px;}
+.yes{display: inline;
+  margin-left: 16px;
+  font-size: 13px;
+  font-weight: bold;}
