@@ -3980,7 +3980,7 @@ div.view:nth-child(1) img {width:inherit;height:inherit;}
 .vid {width: 88%;height: 300px;float: left;margin: 20px 15px 70px 16px;background-size: cover;background-position: 0px -50px;background-repeat: none;position: relative;}
 .imagero{width:100%;max-width:100%;}
 .footer {clear: both;position: relative;z-index: 10;height: 3em;margin-top: -3em;color:#fff;background-color: black;}
-.classic iframe{margin: 30px auto;width: 100%;}
+.classic iframe{  margin: 30px 10px auto 10px;width: 96%;}
 .artist-container {width: 200px;height: 200px;position: relative;margin: 50px auto;overflow: hidden;display:inherit;}
  }
  .artist-contain{
@@ -4006,7 +4006,7 @@ div.view:nth-child(1) img {width:inherit;height:inherit;}
 .vid {width: 88%;height: 300px;float: left;margin: 20px 15px 70px 16px;background-size: cover;background-position: 0px -50px;background-repeat: none;position: relative;}
 .imagero{width:100%;max-width:100%;}
 .footer {clear: both;position: relative;z-index: 10;height: 3em;margin-top: -3em;color:#fff;background-color: black;}
-.classic iframe{margin: 30px auto;width: 100%;}
+.classic iframe{  margin: 30px 10px auto 10px;width: 96%;}
 .artist-container {width: 200px;height: 200px;position: relative;margin: 50px auto;overflow: hidden;display:inherit;}
  }
  
