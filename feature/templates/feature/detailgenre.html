@@ -15,7 +15,7 @@
 
 {% for choice in genre.genrevids_set.all %}
      <div class="vid">
-	 <img class="imagero" id="hide" src="http://img.youtube.com/vi/{{choice.vid_1}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/{{choice.vid_id2}}?autoplay=1" width="480" height="300"/>
+	 <img class="imagero" id="hide" src="http://img.youtube.com/vi/{{choice.vid_1}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/{{choice.vid_1}}?autoplay=1" width="480" height="300"/>
      <div id="hide1">
          <h3>{{choice.vid_s1}}<br /><span>{{choice.vid_n1}}</span></h3></div></div>
 
