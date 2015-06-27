@@ -3527,41 +3527,9 @@ letter-spacing: 1px;
 text-align: left;
 padding-left: 5%;}
 
-
-
-
-
 .heading-small{margin-top:65px;
 color: #441515;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*changes -----------------
@@ -3583,7 +3551,7 @@ color: #441515;
 .section-heading {
   float: left;
   margin: 15px 0;
-  color: #d22227;
+  color: #052C4C;
 }
 .sprite {
   display: inline-block;
@@ -3596,7 +3564,7 @@ color: #441515;
 .sprite.songs { background-position: -60px 0; } 
 .sprite.albums { background-position: -120px 0; } 
 .section-heading h2 {
-  font-size: 26px;
+  font-size: 32px;
   font-weight: bold;
   margin: 0;
 }
