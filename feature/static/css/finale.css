@@ -3854,8 +3854,7 @@ height:240px;border:1px solid #DFD5D5;}
   border-top-color: #f4fbef;
 }
 
-.classic iframe{  margin-left: 70px;
-  margin-bottom: 30px;}
+
 .robot {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -3957,9 +3956,10 @@ height:240px;border:1px solid #DFD5D5;}
 .imagero{width:100%;max-width:100%;}
 .footer{display:none;}
 #wrapper-about {display: table;width: 1024px;margin: 50px auto;}
+.classic iframe{  margin-left: 70px;margin-bottom: 30px;width:40%;}
 }
   
-@media screen and (min-width:200px) and (max-width:599px){
+@media screen and (min-width:400px) and (max-width:599px){
 div.view:nth-child(2) {display:none;}
 div.view:nth-child(3) {display:none;}
 #wrapper {width:100%;margin: 50px 0px 0px 0px;width:100%;height:30%;}
@@ -3978,12 +3978,13 @@ div.view:nth-child(1) img {width:inherit;height:inherit;}
 .vid {width: 88%;height: 300px;float: left;margin: 20px 15px 70px 16px;background-size: cover;background-position: 0px -50px;background-repeat: none;position: relative;}
 .imagero{width:100%;max-width:100%;}
 .footer {clear: both;position: relative;z-index: 10;height: 3em;margin-top: -3em;color:#fff;background-color: black;}
+.classic iframe{margin-left: 20px;margin-right:20px;margin-bottom: 20px;width:inherit;}
  }
  .artist-contain{
     font-size: 0;
     margin: 0 auto;
 }
-@media screen and (max-width:200px) and (max-width:399px){
+@media screen and (min-width:200px) and (max-width:399px){
  #wrapper {width:100%;margin: 20px 0px 0px 0px;width:100%;height:30%;}
 .container-whole{width:100%;margin:0; background-color:#fff;}
 .con{width:100%;margin:0; background-color:#A7E8F0;display:table;}
@@ -3998,6 +3999,7 @@ div.view:nth-child(1) img {width:inherit;height:inherit;}
 .vid {width: 88%;height: 300px;float: left;margin: 20px 15px 70px 16px;background-size: cover;background-position: 0px -50px;background-repeat: none;position: relative;}
 .imagero{width:100%;max-width:100%;}
 .footer {clear: both;position: relative;z-index: 10;height: 3em;margin-top: -3em;color:#fff;background-color: black;}
+.classic iframe{margin-left: 10px;margin-right:10px;margin-bottom: 10px;width:inherit;}
  }
  
 
