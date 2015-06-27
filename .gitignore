@@ -1,0 +1,5 @@
+denv
+__pycache__
+staticfiles
+local_settings.py
+*.py[co]

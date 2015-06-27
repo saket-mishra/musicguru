@@ -1,0 +1,39 @@
+{% extends "index.html" %}
+{% block mainmast %}
+	<div id="wrapper">
+  {% if feats %}
+  {% for feat in feats %}
+   <div class="view third-effect">  
+ <img src="{{ feat.image }}" alt="{{feat.title}}">
+ <div class="mask">  
+  <a href="{% url 'feature:detail' feat.id %}"><h2>{{feat.title}}</h2></a>  
+  </div>
+</div>
+
+{% endfor %}
+{% else %}
+    <p>No </p>
+{% endif %}
+</div>
+{% endblock %}
+
+
+{% block rocker %}
+
+
+<div class="container2" style="margin-top:10px;">
+	<div class="top-artist">
+	<table class="section-heading"><tbody><tr><td><i class="sprite artist"></i></td><td><h2>Featured Artists</h2><h2></h2></td></tr></tbody></table>
+	</div><div class="clearfix"></div>
+    <div class="artist-contain">
+    {% for item in rocks %}
+	
+	<div class="artist-container">
+<a href="{% url 'feature:detailrock' item.id %}"><img src="{{ item.rock_img }}" class="artist-img" alt="{{ item.rock_name }}">
+      <div class="artist-info">{{ item.rock_name }}</div></a></div>
+	  {% empty %}
+       <p>No rockers are available.</p>
+	{% endfor %}
+    </ul>
+</div></div>
+{% endblock %}

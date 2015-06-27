@@ -1,0 +1,43 @@
+{% extends "index.html" %}
+{% load staticfiles %}
+{% block genrepage %}
+<div id="wrapper">
+<div class="about-cl">
+<img class="about-img" src="{{ genre.genre_img}}" alt="jj">
+<h4 class="about-h">{{ genre.genre_about}}</h4>
+<div style="clear:both"></div></div>
+
+
+
+<div class="top-songs">
+<table class="section-heading"><tbody><tr><td><i class="sprite songs"></i></td><td><h2>Best {{genre.genre_name}} Songs Of All Time </h2><h2></h2></td></tr></tbody></table>
+<div class="clearfix"></div>
+
+{% for choice in genre.genrevids_set.all %}
+     <div class="vid">
+	 <img id="hide" src="http://img.youtube.com/vi/{{choice.vid_1}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/{{choice.vid_id2}}?autoplay=1" width="480" height="300"/>
+     <div id="hide1">
+         <h3>{{choice.vid_s1}}<br /><span>{{choice.vid_n1}}</span></h3></div></div>
+
+{% endfor %}</div>
+
+
+
+
+
+
+<div class="top-albums">
+<table class="section-heading"><tbody><tr><td><i class="sprite artist"></i></td><td><h2>Recent Hit {{genre.genre_name}} Songs </h2><h2></h2></td></tr></tbody></table>
+	<div class="clearfix"></div>
+
+{% for choice in genre.genrevids_set.all %}
+     <div class="vid">
+	 <img id="hide" src="http://img.youtube.com/vi/{{choice.vid_2}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/{{choice.vid_2}}?autoplay=1" width="480" height="300"/>
+     <div id="hide1">
+         <h3>{{choice.vid_s2}}<br /><span>{{choice.vid_n2}}</span></h3></div></div>
+
+{% endfor %}</div>
+
+
+
+{% endblock %}

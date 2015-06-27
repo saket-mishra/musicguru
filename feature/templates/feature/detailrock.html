@@ -1,0 +1,30 @@
+{% extends "index.html" %}
+{% load staticfiles %}
+{% block featurelist %}
+<div id="wrapper-full">
+<div class="about-cl">
+<img class="about-img" src="{{ rockinfo.rock_img }}" alt="jj">
+<h4 class="about-h">{{ rockinfo.about}}</h4></div>
+<div style="clear:both"></div>
+<div class="top-songs">
+<table class="section-heading"><tbody><tr><td><i class="sprite songs"></i></td><td><h2>Top Songs By {{rockinfo.rock_name}}</h2><h2></h2></td></tr></tbody></table>
+	<div class="clearfix"></div></div>
+{% for choice in rockinfo.rockvids_set.all %}
+     <div class="vid">
+	 <img id="hide" src="http://img.youtube.com/vi/{{choice.vid_id1}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/Z7JgY9zezj4?autoplay=1" width="480" height="300"/>
+     <div id="hide1">
+         <h3>{{choice.vid_singer_name1}}<br /><span>{{choice.vid_name1}}</span></h3></div></div>
+
+{% endfor %}
+<div class="top-songs">
+<table class="section-heading"><tbody><tr><td><i class="sprite artist"></i></td><td><h2>Recent Hit Songs By {{rockinfo.rock_name}}</h2><h2></h2></td></tr></tbody></table>
+	</div><div class="clearfix">
+</div>
+{% for choice in rockinfo.rockvids_set.all %}
+     <div class="vid">
+	 <img id="hide" src="http://img.youtube.com/vi/{{choice.vid_id2}}/hqdefault.jpg" data-video="https://www.youtube.com/embed/Z7JgY9zezj4?autoplay=1" width="480" height="300"/>
+     <div id="hide1">
+         <h3>{{choice.vid_singer_name2}}<br /><span>{{choice.vid_name2}}</span></h3></div></div>
+
+{% endfor %}
+{% endblock %}

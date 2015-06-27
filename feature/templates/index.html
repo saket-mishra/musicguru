@@ -1,0 +1,116 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Musical India</title>		
+		<link rel="stylesheet" type="text/css" href="{% static 'css/finale.css' %}" />
+	 </head>
+		
+	<header>
+		
+{% include "feature/navbar.html" %}
+
+	</header>
+	
+	<body>
+	
+	
+	
+  
+    
+	<div class="container-whole">
+{% block featuredetail %}{% endblock %}
+{% block mainmast %}{% endblock %}
+{% block rocker %}{% endblock %}
+{% block featurelist %}{% endblock %}
+{% block aboutpage %}{% endblock %}
+{% block 404page %}{% endblock %}
+{% block faqpage %}{% endblock %}
+{% block contactpage %}{% endblock %}
+{% block genrepage %}{% endblock %}
+{% block naverdetail %}{% endblock %}
+{% block feed %}{% endblock %}
+{% block contact %}{% endblock %}
+
+
+
+
+{% include "feature/embed.html" %}
+
+
+</div>
+
+
+<article style="height: 1px">
+    <a href="#" class="scrollup">Scroll</a>
+</article>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="C:/Users/Saket/musicalguru/static/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="static/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="static/js/jquery.lockfixed.js"></script>	
+	<script type="text/javascript" src="static/js/jquery.lockfixed.min.js"></script>
+    <script>
+     $('img').click(function () {
+    var video = $('<iframe />', {
+        'src': this.dataset.video,
+            'height': this.clientHeight,
+            'width': this.clientWidth
+    });
+    $(this).replaceWith(video);
+    $("#hide1").hide();
+});
+</script>
+<script>
+
+(function() {
+  var $boxTrigger, $message, $robot, aliveMessage, deadMessage;
+
+  $boxTrigger = $(".box");
+
+  $robot = $(".robot");
+
+  $message = $(".box-message");
+
+  aliveMessage = $message.text();
+
+  deadMessage = $message.data("dead-message");
+
+  $boxTrigger.click(function() {
+    $robot.toggleClass("robot_is-dead");
+    if ($robot.hasClass("robot_is-dead")) {
+      return $message.text(deadMessage);
+    } else {
+      return $message.text(aliveMessage);
+    }
+  });
+
+}).call(this);
+</script>
+<script>
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
+
+	
+	</body>
+</html>

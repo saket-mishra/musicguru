@@ -1,0 +1,1 @@
+web: gunicorn musicalguru.wsgi --log-file -
