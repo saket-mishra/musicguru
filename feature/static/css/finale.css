@@ -3979,6 +3979,7 @@ div.view:nth-child(1) img {width:inherit;height:inherit;}
 .imagero{width:100%;max-width:100%;}
 .footer {clear: both;position: relative;z-index: 10;height: 3em;margin-top: -3em;color:#fff;background-color: black;}
 .classic iframe{margin-left: 20px;margin-right:20px;margin-bottom: 20px;width:inherit;}
+.artist-container {width: 200px;height: 200px;position: relative;margin: 50px auto;overflow: hidden;}
  }
  .artist-contain{
     font-size: 0;
@@ -4000,6 +4001,7 @@ div.view:nth-child(1) img {width:inherit;height:inherit;}
 .imagero{width:100%;max-width:100%;}
 .footer {clear: both;position: relative;z-index: 10;height: 3em;margin-top: -3em;color:#fff;background-color: black;}
 .classic iframe{margin-left: 10px;margin-right:10px;margin-bottom: 10px;width:inherit;}
+.artist-container {width: 200px;height: 200px;position: relative;margin: 50px auto;overflow: hidden;}
  }
  
 
